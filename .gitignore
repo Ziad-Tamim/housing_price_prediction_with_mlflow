@@ -1,0 +1,4 @@
+mlruns/
+*.log
+__pycache__/
+.env
