@@ -6,12 +6,12 @@ This project demonstrates an end-to-end Machine Learning pipeline to predict med
 
 
 ## Overview
-- Data Collection & Cleaning: Used California census data (1990) and handled missing values.
-- Exploratory Analysis & Visualization: Identified correlations and feature distributions.
-- Feature Engineering: Created new features (ratios, cluster similarities) and performed transformations (log scaling, standardization).
-- Model Training & Selection: Evaluated Linear Regression, Decision Trees, and Random Forests using cross-validation.
-- Hyperparameter Tuning: Optimized parameters via GridSearchCV and RandomizedSearchCV.
-- Deployment & Monitoring: Saved final model with joblib; emphasized continuous monitoring and retraining.
+- **Data Collection & Cleaning**: Used California census data (1990) and handled missing values.
+- **Exploratory Analysis & Visualization**: Identified correlations and feature distributions.
+- **Feature Engineering**: Created new features (ratios, cluster similarities) and performed transformations (log scaling, standardization).
+- **Model Training & Selection**: Evaluated Linear Regression, Decision Trees, and Random Forests using cross-validation.
+- **Hyperparameter Tuning**: Optimized parameters via GridSearchCV and RandomizedSearchCV.
+- **Deployment & Monitoring**: Saved final model with joblib; emphasized continuous monitoring and retraining.
 
 ## Results
 
@@ -24,14 +24,14 @@ This project demonstrates an end-to-end Machine Learning pipeline to predict med
 Random Forest emerged as the best model, significantly reducing errors compared to simpler models.
 
 ## Metrics
-- RMSE: Prioritizes avoiding large errors.
-- MAE: Provides average magnitude of errors, less sensitive to outliers.
+- **RMSE**: Prioritizes avoiding large errors.
+- **MAE**: Provides average magnitude of errors, less sensitive to outliers.
 
 ## Project Structure
-- Data Acquisition: Census data CSV.
-- Preprocessing Pipeline: Scikit-Learn (Pipelines, Imputation, Encoding).
-- Modeling & Tuning: GridSearchCV, RandomizedSearchCV.
-- Deployment: Model serialization with joblib.
+- **Data Acquisition**: Census data CSV.
+- **Preprocessing Pipeline**: Scikit-Learn (Pipelines, Imputation, Encoding).
+- **Modeling & Tuning**: GridSearchCV, RandomizedSearchCV.
+- **Deployment**: Model serialization with joblib.
 
 ## Features
 - longitude (float)
@@ -48,11 +48,11 @@ Random Forest emerged as the best model, significantly reducing errors compared 
 - median_house_value (float)
 
 ## Skills & Tools Used
-- Python Programming & Data Handling: Proficiency with Python and libraries like NumPy, Pandas, Matplotlib (or similar) is key for data loading, manipulation, and visualization.
-- Machine Learning Fundamentals: Understanding supervised learning (especially regression), model evaluation (train/test splits, cross-validation), and performance metrics (RMSE, MAE) is critical.
-- Data Preprocessing & Wrangling: Skills in dealing with missing values, outliers, data transformations (log-scaling heavy-tailed distributions, feature scaling, encoding categorical variables, etc.).
-- Feature Engineering: Ability to create meaningful new features (e.g., ratios like rooms_per_house, or engineered similarity features like cluster centers) to improve model performance.
-- Scikit-Learn Workflows: Familiarity with Scikit-Learn’s pipelines, transformers (e.g., SimpleImputer, StandardScaler, OneHotEncoder), and model selection tools (GridSearchCV, RandomizedSearchCV).
-- Model Deployment & Maintenance: Basic knowledge of how to save a model (using joblib) for production, monitor its performance over time, and implement an automated pipeline for retraining if needed.
-- MLflow: Model tracking and versioning
-- DVC: Data tracking and version control
+- **Python Programming & Data Handling**: Proficiency with Python and libraries like NumPy, Pandas, Matplotlib (or similar) is key for data loading, manipulation, and visualization.
+- **Machine Learning Fundamentals**: Understanding supervised learning (especially regression), model evaluation (train/test splits, cross-validation), and performance metrics (RMSE, MAE) is critical.
+- **Data Preprocessing & Wrangling**: Skills in dealing with missing values, outliers, data transformations (log-scaling heavy-tailed distributions, feature scaling, encoding categorical variables, etc.).
+- **Feature Engineering**: Ability to create meaningful new features (e.g., ratios like rooms_per_house, or engineered similarity features like cluster centers) to improve model performance.
+- **Scikit-Learn Workflows**: Familiarity with Scikit-Learn’s pipelines, transformers (e.g., SimpleImputer, StandardScaler, OneHotEncoder), and model selection tools (GridSearchCV, RandomizedSearchCV).
+- **Model Deployment & Maintenance**: Basic knowledge of how to save a model (using joblib) for production, monitor its performance over time, and implement an automated pipeline for retraining if needed.
+- **MLflow**: Model tracking and versioning
+- **DVC**: Data tracking and version control
